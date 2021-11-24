@@ -1,8 +1,8 @@
 {
   "name": "vup-number-formatter",
   "description": "for number formats",
-  "author": "vidura Perera",
-  "keywords": ["react", "number formats", "formatter"],
+  "author": "vup97",
+  "keywords": ["react", "number_formats", "formatter"],
   "version": "0.1.0",
   "private": false,
   "main": "dist/index.js",
