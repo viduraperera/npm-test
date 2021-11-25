@@ -3,7 +3,7 @@
   "description": "for number formats",
   "author": "vup97",
   "keywords": ["react", "number_formats", "formatter"],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
