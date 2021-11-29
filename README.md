@@ -37,4 +37,3 @@ function App(){
     console.log(Vup_k_formatter(33914));  //33.9k
 }
 ```
-https://codesandbox.io/embed/winter-grass-wdvwp?fontsize=14&hidenavigation=1&theme=dark
