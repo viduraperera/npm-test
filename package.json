@@ -2,21 +2,29 @@
   "name": "vup-number-formatter",
   "description": "for number formats",
   "author": "vup97",
-  "keywords": ["react", "number_formats", "formatter"],
+  "keywords": [
+    "react",
+    "number_formats",
+    "formatter"
+  ],
   "version": "0.1.1",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": [ "dist", "README.md" ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/viduraperera/npm-test.git"
-},
+    "type": "git",
+    "url": "git+https://github.com/viduraperera/npm-test.git"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "jest": "^27.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -25,7 +33,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
-    "test": "react-scripts test",
+    "test": "jest --watchAll",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
